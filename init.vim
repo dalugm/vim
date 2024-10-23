@@ -5,7 +5,9 @@ if &compatible
   set nocompatible
 endif
 
-set title
+" Disable title modification.
+set notitle
+
 " Improve smoothness of redrawing.
 set ttyfast
 
